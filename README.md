@@ -28,7 +28,7 @@ Wallet API Creation
 To design an API service to be used to manage users wallet 
 
 # Simple API Documentation 
-  # GET /api/wallets/{id}
+  # GET /api/wallet/{id}
   Get a user wallet by the walletId
   
   request - GET /api/wallets/1
@@ -43,7 +43,7 @@ To design an API service to be used to manage users wallet
   "owner": "123-456-7890"
 }
 
-# DELETE /api/v1/wallets/{id}
+# DELETE /api/v1/wallet/{id}
 Delete a wallet.
 Parameters
 {id} (path parameter): ID of the wallet to delete.
@@ -53,7 +53,7 @@ response - {
   "message": "Wallet removed successfully."
 }
 
-# GET /api/v1/wallets
+# GET /api/v1/wallet/getAllWallets
 Retrieve a list of all wallets with pagination.
 
 Parameters
